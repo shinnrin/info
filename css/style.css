@@ -19,7 +19,7 @@ hr{
   margin: 1% auto 7%;
 }
 h2{
-  padding: 1.5rem 0 0rem;
+  padding: 1.5rem 0 0;
   position: relative;
   text-align: center;
   font-weight: 900;
@@ -80,6 +80,12 @@ footer{
   text-align: center;
   margin: 0 auto 0;
 }
+.hlink{
+  color:inherit;
+}
+.hlink:hover{
+  color:#F6C6C4;
+}
 .icon{
   margin: 30px 20px 10px;
   color:  #FEF4F3;
@@ -94,10 +100,13 @@ footer{
   text-decoration: none;
 }
 .icon:hover{
-  color:inherit;
+  color:#F6C6C4;
   text-decoration: none;
 }
 
+.index-img{
+  width:500px;
+}
 
 
   /* Commission Page */
