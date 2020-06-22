@@ -1,0 +1,173 @@
+body{
+  animation: mymove 40s infinite;
+  background-color: #FEF4F3;
+  background-image:url("bg.png");
+  background-position: left;
+  background-repeat: round;
+  background-size: 50%;
+  font-family:"Montserrat", sans-serif;
+  color:#584C4C;
+  line-height: 2;
+  text-align: center;
+}
+@keyframes mymove {
+  100% {background-position: right;}
+}
+hr{
+  border-top: 10px dotted #F6C6C4;
+  width:30%;
+  margin: 1% auto 7%;
+}
+h2{
+  padding: 1.5rem 0 0rem;
+  position: relative;
+  text-align: center;
+  font-weight: 900;
+
+}
+h4{
+  padding: 1.5rem 0 1rem;
+  position: relative;
+  text-align: center;
+  font-weight: 900;
+
+}
+h3{
+  padding-bottom: .5rem;
+  text-align: left;
+  font-weight: 900;
+
+}
+h5{
+  margin-top: .5rem;
+  text-align: left;
+}
+nav{
+  background-color: #584C4C;
+}
+footer{
+  background-color: #584C4C;
+  color: #FEF4F3;
+  padding: 30px 0 15px;
+}
+.main-color{
+  color:#584C4C
+}
+.secondary-color{
+  background-color: #F6C6C4;
+  color: #584C4C;
+}
+.container-fluid{
+  padding:0;
+}
+.copyr{
+  margin-top: 25px;
+}
+
+.home-carousel{
+  max-height: 700px;
+  overflow: hidden;
+}
+
+.navbar-brand{
+  font-size: 2rem;
+  font-weight:900;
+}
+.nav-item{
+  margin: 0 20px 0;
+}
+.footer-icons{
+  text-align: center;
+  margin: 0 auto 0;
+}
+.icon{
+  margin: 30px 20px 10px;
+  color:  #FEF4F3;
+}
+
+.icon-dark{
+  margin: 30px 20px 10px;
+  color: #584C4C;
+}
+.icon-dark:hover{
+  color:inherit;
+  text-decoration: none;
+}
+.icon:hover{
+  color:inherit;
+  text-decoration: none;
+}
+
+
+
+  /* Commission Page */
+  .carousel-sample{
+    padding:0;
+
+  }
+  .content{
+    height: 70%;
+    text-align: center;
+    align-items: center;
+    padding: 0 7% 0;
+  }
+  .chibi-img{
+    width: 80%;
+    margin:auto auto;
+  }
+
+  .fb-carousel{
+    position:relative;
+    margin:auto;
+    border: 3px solid #F6C6C4;
+  }
+  .fb-img{
+    width: 100%;
+  }
+  .pricing-table{
+    position: relative;
+    margin: 25% 0;
+    color:#584C4C;
+  }
+  .ref-image{
+    position: static;
+    border: 3px solid #F6C6C4;
+    width: 80%;
+    margin-bottom: 3%;
+  }
+  .ref-pricing{
+    color: #584C4C;
+    margin-bottom:3%;
+  }
+
+
+/* TERMS AND CONDITIONS */
+.tos{
+  text-align: left;
+  color:#584C4C;
+  padding: 4% 7%;
+}
+/* CONTACT */
+.contact-info{
+margin-top: 30%;
+padding: 0 5%;
+}
+
+/* SAMPLE */
+.samples{
+  padding:4% 7%;
+}
+.sample-icon{
+  max-width: 100%;
+  max-height: 100%;
+  margin:5% 0 ;
+  border-radius: 100%;
+  border: 3px solid #F6C6C4;
+}
+.sample-illus{
+  max-width:100%;
+  max-height:100%;
+  margin:5% 0;
+  border-radius: 5%;
+  border: 3px solid #F6C6C4;
+}
